@@ -1,0 +1,311 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../src/Poppins/Poppins-Medium.ttf');
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   font-family: Poppins;
+   overflow-x: hidden;
+
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  /* font-weight: bold; */
+}
+nav{
+  background-color:rgb(245, 241, 241);
+  height:120px;
+  display: flex;
+  padding:20px 30px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  
+  
+  
+
+}
+.nav--logo{
+  height: 100px;
+}
+.nav{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.nav-item{
+    list-style: none;
+  
+    display: flex;
+    display: inline-block;
+}
+.nav-item > li{
+  padding: 10px;
+  display: inline;
+  justify-content:space-between;
+}
+.price{
+  color:rgb(230, 134, 134);
+}
+
+/* HERO SECTION */
+section{
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero--photo{
+  max-width: 400px;
+  align-self: center;
+}
+.hero--head{
+  margin-bottom: 16px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+.hero--para{
+  margin-top: 10;
+  margin-left: 50px;
+}
+.red{
+  color:rgb(221, 102, 102);
+}
+.online{
+  color:rgb(232, 96, 96);
+
+}
+
+/* CARD SECTION */
+
+.card{
+  width: 180px;
+  font-size: 17px;
+  flex: 0 0 auto;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content:space-between; */
+  margin-left: 150px; 
+  position: relative;
+
+  
+}
+.img1{
+    height: 280px;
+    width:280px;
+    border-radius: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+
+}
+.card--stats{
+  display:flex ;
+  align-items: center;
+
+}
+.card--badge{
+  position: absolute;
+  top:4px;
+  left:6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.star{
+  height: 30px;
+  
+}
+.bold{
+   font-weight:lighter;
+  color:rgb(159, 159, 164);
+}
+.names{
+  color:rgb(200, 195, 195) ;
+}
+.country{
+  color:rgb(243, 105, 93);
+}
+
+span{
+  margin-right: 5px;
+
+ 
+  
+}
+
+/* JOURNAL SECTION */
+
+.header--1{
+  background-color: rgb(231, 118, 101);
+  color:white;
+  padding: 10px 0px;
+  border-radius: 5px;
+  /* display: flex;
+  align-items: center; */
+}
+.header--1 > h2{
+  text-align: center;
+}
+.icon{
+  height: 30px;
+}
+
+/* .journal{
+  margin-top: 45px;
+}
+.blogs{
+  margin-top: 35px;
+  margin-left: 25px;
+  /* display: flex;
+  display: inline-block; */
+  /* flex-direction: column; */
+  /* text-align: center; */
+ 
+ /* } */
+
+ .journal--stats{
+  margin-top: 60px;
+  padding: 10px 20px;
+  
+  /* align-items: center; */
+ }
+#bali{
+  height: 300px;
+  border-radius: 5px;
+  float: left;
+  /* margin-top: 60px; */
+  margin-left: 150px;
+  
+
+} 
+.star{
+  position: relative;
+  margin-top: 30px;
+} 
+a{
+  text-decoration: none;
+  margin-left: 30px;
+}
+#about {
+  
+
+  margin-left: 700px; 
+  /* width: 100%; */
+  
+  
+  /* padding-left: 170px; */
+  
+}
+
+/* TESTEMONIALS */
+.person1{
+  height: 200px;
+  border-radius: 6px;
+}
+/* .testimonial-content{
+  width: 180px;
+  font-size: 17px;
+  flex: 0 0 auto;
+  display: flex;
+  display: inline-block;
+ flex-direction: column;
+text-align: center; 
+}  */
+/* .testimonial > div{
+  width: 180px;
+  font-size: 17px;
+  flex: 0 0 auto;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+   justify-content:space-between; 
+  margin-left: 150px; 
+  position: relative;
+
+  
+} */
+.testimonial{
+   background-color:rgb(231, 118, 101); 
+}
+.testimonial > div{
+  display: inline;
+   padding: 80px 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  justify-content:space-between;
+  text-align: center; 
+}
+
+/* FOOTERS */
+
+li{
+  list-style: none;
+}
+
+.foot{
+  height: 400px;
+}
+/* DROPDOWN */
+
+
+.dropbtn {
+  background-color: rgb(240, 121, 91);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: Poppins;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
